@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/candidate_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Candidate Full Name"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:minHeight="50dp" />
+
+    <EditText
+        android:id="@+id/candidate_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Candidate ID"
+        android:inputType="text"
+        android:padding="12dp"
+        android:minHeight="50dp" />
+
+    <EditText
+        android:id="@+id/candidate_department"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Department"
+        android:inputType="text"
+        android:padding="12dp"
+        android:minHeight="50dp" />
+
+    <EditText
+        android:id="@+id/candidate_manifesto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Manifesto"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:padding="12dp"
+        android:minHeight="80dp" />
+
+    <Button
+        android:id="@+id/btn_add_candidate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Candidate"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:minHeight="50dp" />
+
+</LinearLayout>
+

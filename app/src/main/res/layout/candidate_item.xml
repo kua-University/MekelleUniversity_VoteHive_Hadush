@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_marginBottom="8dp">
+
+    <TextView
+        android:id="@+id/candidate_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Candidate Full Name: N/A"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/candidate_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Candidate ID: N/A" />
+
+    <TextView
+        android:id="@+id/candidate_department"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Department: N/A" />
+
+    <TextView
+        android:id="@+id/candidate_manifesto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manifesto: N/A" />
+
+    <TextView
+        android:id="@+id/vote_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Votes: 0" />
+
+    <Button
+        android:id="@+id/btn_vote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vote Me" />
+
+    <Button
+        android:id="@+id/btn_unvote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unvote"
+        android:visibility="gone" />
+</LinearLayout>
+
+
+
+
+

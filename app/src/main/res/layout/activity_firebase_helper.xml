@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvFirebaseHelperTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Firebase Helper - Manage Candidates"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-medium"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnAddCandidate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Candidate"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/tvFirebaseHelperTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnUpdateCandidates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Candidates"
+        android:textColor="#ffffff"
+        android:background="@color/colorAccent"
+        android:layout_below="@id/btnAddCandidate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnSyncCandidates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sync Candidates"
+        android:textColor="#ffffff"
+        android:background="@color/colorSecondary"
+        android:layout_below="@id/btnUpdateCandidates"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>

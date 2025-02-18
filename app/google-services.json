@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "295037851474",
+    "firebase_url": "https://musr-votehive-64c57-default-rtdb.firebaseio.com",
+    "project_id": "musr-votehive-64c57",
+    "storage_bucket": "musr-votehive-64c57.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295037851474:android:3a48c1b80db156d67b0c8b",
+        "android_client_info": {
+          "package_name": "com.example.musr_votehive"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-ql40krUPV8OwzAIk4PcExyIrIwTh-oY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
